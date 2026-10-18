@@ -1,0 +1,38 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+      "source": "stars.txt", 
+	  "width": 10, 
+	  "height": 15, 
+	  "padding": {
+		  "top": 0
+	  } 
+  },
+  "display": {"separator": " ", 
+	  "key": {
+		  "width": 4, 
+		  "type": "string"
+	  } 
+  },
+  "modules": [
+    "break",
+    "break",
+    "break",
+    {
+    "type": "os", "format": "Arch (btw)", "key": ""
+    },
+    {
+    "type": "cpu", "format": "Ryzen 5 3500U", "key": ""
+    },
+    {
+    "type": "gpu", "format": "RX Vega 8", "key": ""
+    },
+    {
+    "type": "memory", "key": "", "format": "{1}  : {2}"
+    },
+    {
+    "type": "disk", "key": "󰋊", "format": "{1} : {2}"
+    },
+  ]
+}

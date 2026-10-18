@@ -1,0 +1,19 @@
+# comportamento
+
+max-history=3
+default-timeout=5000
+
+# tamanho
+
+width=400
+height=1600
+padding=16
+border-radius=12
+border-size=1
+border-color=#e2ce66
+
+# cores
+
+text-color=#ede09e
+background-color=#070a13
+

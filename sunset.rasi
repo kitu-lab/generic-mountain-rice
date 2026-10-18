@@ -1,0 +1,45 @@
+* {
+  bg: #070a13;
+  fg: #e2ce66;
+  txt: #ede09e;
+  ac: #366b8d;
+  background-color: @bg;
+  foreground-color: @fg;
+  text-color: @txt;
+}
+window {
+    margin: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    background-color: @bg;
+    border-radius: 12px;
+    border: 1px;
+    border-color: @fg;
+    anchor: center;
+    location: center;
+  }
+       element-text.selected {
+            background-color: @ac;
+            text-color: @bg;
+            border-radius: 6px;
+            padding: 5px;
+            margin: 5px;
+          }
+          element-text {
+              background-color: transparent;
+              text-color: @txt;
+              padding: 1px; 
+              margin: 5px;
+          }
+          entry {
+              text-color: @txt;
+              background-color: transparent;
+              padding: 5px;
+              border-radius: 6px;
+              border: 1px;
+              border-color: @fg;
+              placeholder: "Pesquisar...";
+              placeholder-color: #222346;
+              margin: 3px;
+          }
